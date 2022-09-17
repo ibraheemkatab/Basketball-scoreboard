@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Cursed Timer ULiL'), url('https://fonts.cdnfonts.com/s/40642/CursedTimerUlil-Aznm.woff') format('woff');
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #1B244A;
+}
+.title{
+    font-family: 'Verdana';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 36px;
+text-transform:uppercase ;
+color: #EEEEEE;
+}
+.score-board{
+    border: 1px transparent;
+    background-color: black;
+    width: 155px;
+height: 120px;
+    margin: 0 auto;
+    border-radius: 6px;
+    position: relative;
+    
+
+}
+#container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 1900px;
+    width: 60%;
+    margin: 0 auto;
+    top: 100px;
+    position: relative;
+   padding: 2rem;
+   text-align: center;
+   
+    
+}
+.btn{
+    border:2px solid white;
+    background-color: transparent;
+    width: 40px;
+    height: 40px;
+    border-radius: 6px;
+    color: white;
+    margin: 5px;
+    margin-top: 20px;
+    
+}
+.score{
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3rem;
+    color: red;
+    position: relative;
+    text-align: center;
+    top: 40%;}
+    
+    #again-btn{
+        border:2px solid white;
+    background-color: transparent;
+    width: 120px;
+    height: 40px;
+    border-radius: 6px;
+    color: white;
+    margin: 5px;
+    margin-top: 20px;
+    top: 60%;
+    position: relative;
+    
+    }
+    .btn:hover{
+        background-color: black;
+        
+    }
+    #again-btn:hover{
+        background-color: green;
+    }
+    @media only screen and (max-width:768px) {
+        
+        #container{
+           
+            display:grid ;
+            grid-template-columns: 1fr;
+            top: 0;
+        }
+        
+        #again{
+            position: absolute;
+            bottom: 0;
+            
+        }
+        #guest{
+            margin-bottom: -30px;
+        }
+       
+        }
+        
+      
+   
